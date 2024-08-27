@@ -1,0 +1,112 @@
+.startShopping {
+  background-color: #290462;
+  position: relative;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.startShopping .imageBig {
+  position: absolute;
+  left: 27%;
+  top: 33%;
+  z-index: 2;
+}
+.startShopping .imageBig img {
+  margin-left: 10px;
+}
+.startShopping .imageSmall ,
+.startShopping .title ,
+.startShopping .vector ,
+.startShopping .vectorTwo ,
+.startShopping .more ,
+.startShopping .moreTwo {
+  position: absolute;
+}
+.startShopping .imageSmall {
+  left: -2px;
+  top: 5%;
+}
+.startShopping .title {
+  right: 20%;
+  top: 20%;
+  font-size: 25px;
+  color: #fff;
+}
+.startShopping .more {
+  left: 21%;
+  top: 29%;
+  font-size: 24px;
+  font-weight: bolder;
+  color: #FF6600;
+}
+.startShopping .moreTwo {
+  left: 15%;
+  top: 36%;
+  font-size: 24px;
+  color: #fff;
+  rotate: -10deg;
+}
+.startShopping .vector {
+  left: 26%;
+  top: 35%;
+}
+.startShopping .vectorTwo {
+  left: 18%;
+  top: 25%;
+
+}
+.info {
+  position: relative;
+  transform: translateY(-85px);
+  background: #fff;
+  z-index: 1;
+  padding: 20px;
+  padding-top: 90px;
+  padding-bottom: 0;
+  border-radius: 40px;
+}
+.info .pragraph {
+  position: relative;
+  margin-bottom: 30px;
+}
+.info .pragraph p {
+  color: #290462;
+  font-size: 20px;
+}
+.info .pragraph img {
+  position: absolute;
+}
+.info .pragraph .img1 {
+  top: -28px;
+  right: -14px;
+  transform: rotate(-60deg);
+}
+.info .pragraph .img2 {
+  top: 5px;
+  left: 7px;
+  rotate: 139deg;
+}
+.info .row {
+  margin-bottom: 25px;
+}
+.info .details {
+  width: 87%;
+  /* margin-right: 15px; */
+}
+.info .row img {
+  width: 8%;
+}
+.info .details h3 {
+  font-size: 20px;
+  font-weight: bolder;
+  color: #290462;
+}
+.info .details p {
+  font-size: 18px;
+  color: #7C679A;
+}
+.done {
+  margin-bottom: 0px;
+}
+/*  */

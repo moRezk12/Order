@@ -1,0 +1,115 @@
+.discountCodes{
+  position: relative;
+}
+.discountCodes img {
+  position: absolute;
+  top: -50px;
+  left: 20px;
+  width: 90px;
+}
+.discount {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  margin: 50px 0px;
+}
+.discount a {
+  margin-left: 30px;
+  color: #290462;
+  font-size: 18px;
+  font-weight: bold;
+}
+.discount h2 {
+  color: #290462;
+  font-size: 28px;
+  font-weight: bolder;
+}
+.discountCodes p {
+  font-size: 18px;
+  color: #0F0F0F;
+  margin-top: 20px;
+  text-align: right;
+  font-weight: bold;
+}
+.dis .row {
+  margin: 20px 0;
+  background-color: #DFD9E7;
+  border-radius: 15px;
+  box-shadow: 5px 10px 16px 0px #DFD9E7;
+}
+.dis .row .image {
+  /* width: 19%; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #BDB1CE;
+  padding: 20px 15px;
+  border: 1px solid #BDB1CE;
+  border-radius: 15px;
+  position: relative;
+}
+.dis .row .image::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  height: 75%;
+  margin: auto;
+  border-right: 3px dashed #290462;
+}
+.dis .row  .image img {
+  width: 40px;
+  height: 40px;
+  margin: 5px auto;
+}
+.dis .row  .image h4 {
+  font-size: 18px;
+  color: #0F0F0F;
+  font-weight: bold;
+}
+.dis .row  .image .code {
+  margin-top: 10px;
+}
+.dis .row .code span {
+  font-size: 18px;
+  padding: 3px 10px;
+  border: 3px dashed #290462;
+  border-radius: 0px 10px 0 10px ;
+  background-color: #fff;
+  color: #290462;
+}
+.dis .row .info {
+  /* width: 78%; */
+  padding: 18px 8px;
+  text-align: right;
+  background-color: #DFD9E7;
+  border-radius: 0px 15px 15px 0px;
+
+}
+.dis .row .info h3 {
+  font-size: 18px;
+  color: #290462;
+}
+.dis .row .info p {
+  margin: 8px 0px;
+  font-size: 14px;
+  color: #BDB1CE;
+}
+.dis .row .info hr {
+  /* padding-left: 2px; */
+  margin: 8px 5px ;
+  margin-right: 0;
+  border: 3px dashed #290462;
+}
+.dis .row .info h4 {
+  color: #BDB1CE;
+  font-size: 16px;
+  font-weight: bold;
+}
+.dis .row .info span {
+  color: #290462;
+  font-size: 18px;
+}
+.dis .last {
+  margin-bottom: 80px;
+}

@@ -1,0 +1,283 @@
+.bigDiv {
+  position: relative;
+}
+.paymentSteps {
+  background-color: #290462;
+  padding: 20px 0;
+  position: relative;
+}
+.paymentSteps .row {
+  flex-direction: row-reverse;
+  align-items: start;
+  text-align: right;
+  padding: 0 15px;
+}
+.paymentSteps .row .arrow {
+  color: #FF6600;
+  font-size: 23px;
+}
+.paymentSteps .row .title h3 {
+  color: #FF6600;
+  font-size: 30px;
+}
+.paymentSteps .row .title p {
+  color: #FFF;
+  font-size: 29px;
+  margin: 10px 0;
+}
+.paymentSteps .row .title .NB {
+  /* border: 1px solid red; */
+  padding: 3px 15px;
+  border: 1px solid #FF6600;
+  /* border-color: linear-gradient(264.27deg, #5408C8 -0.36%, #FF6600 87.22%); */
+  /* border-image-source: linear-gradient(264.27deg, #5408C8 -0.36%, #FF6600 87.22%); */
+}
+.paymentSteps .row .title .NB p {
+  font-size: 16px;
+}
+.paymentSteps .row .title .NB span {
+  color: #FF6600;
+}
+.paymentSteps .row .image div {
+  background-color: #fff;
+  padding: 8px 0;
+  border-radius: 5px;
+  border: 1px solid #FF6600;
+}
+.paymentSteps .row .image img {
+  width: 100%;
+
+}
+
+.location {
+
+  transform: translateY(-5px);
+  border-radius: 30px;
+  padding: 15px 0;
+  background-color: #fff;
+  text-align: right;
+}
+.location .address {
+  padding: 10px 25px;
+}
+.location .address h2 {
+  color: #290462;
+  font-size: 25px;
+  font-weight: bolder;
+  margin: 20px 0;
+}
+
+.location .address .row i ,
+.location .address .row p {
+  font-size: 20px;
+  color: #290462;
+  font-weight: bolder;
+}
+.location .address .row p {
+  margin-right: 10px;
+  color: #0F0F0F;
+}
+hr{
+  margin: 20px 0;
+}
+.location .now {
+  background-color: #DFD9E7;
+  padding: 10px;
+  border-radius: 20px;
+  border-bottom-left-radius: 0px;
+}
+.location .now .row {
+  position: relative;
+}
+.location .box3 .now {
+  background-color: #BDB1CE;
+  border: 1px solid #290462;
+}
+.location .box3 .now .row {
+  justify-content: end;
+}
+.location .now .row::after {
+  content: "";
+  position: absolute;
+  bottom: -17px;
+    left: -10px;
+    height: 7px;
+    width: 165px;
+  background-color: #21034E;
+}
+
+.location  .circle ,
+.chooseWallet .circle {
+  width: 30px;
+  height: 30px;
+  border: 2px solid #21034E;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.location  .circle div ,
+.chooseWallet .circle div {
+  width: 15px;
+  height: 15px;
+  background-color: #290462;
+  border-radius: 50%;
+}
+
+.location .now .row h2 {
+  font-size: 30px;
+  margin: 10px 0;
+}
+.location .now .row p {
+  margin: 0;
+}
+.location .time .box {
+  margin-bottom: 20px;
+}
+.location .price {
+  background-color: transparent;
+  /* position: absolute; */
+  left: 25px;
+  bottom: -28px;
+
+}
+.location .price div {
+  width: 165px;
+    background-color: #290462;
+    border-radius: 0px 0px 15px 15px;
+    padding: 9px 20px 5px;
+}
+.location .price p {
+  font-size: 25px;
+  color: #fff;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  text-align: left;
+}
+.methods .box ,
+.chooseWallet .box {
+  background-color: #DFD9E7;
+  border: 1px solid #290462;
+  border-radius: 20px;
+  border-bottom-left-radius: 0px;
+  padding: 0px 15px;
+  margin-bottom: 20px;
+}
+.methods .box3  {
+  background-color: #BDB1CE;
+}
+.methods .box .activation {
+  /* width: 100px; */
+  background-color: #BDB1CE;
+  color: #0f0f0f;
+  border-radius: 15px 15px 15px 0;
+  display: flex;
+  justify-content: center;
+  margin-left: -8px;
+}
+.methods .box .activation p {
+  font-size: 23px;
+  padding: 12px 35px;
+}
+.methods .code .circleBig {
+  width: 55px;
+  height: 30px;
+  border-radius: 20px;
+  background-color: #21034E;
+  display: flex;
+  text-align: left;
+  align-items: center;
+}
+.methods .code .circleBig div {
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  background: #fff;
+  margin: 0 5px;
+  padding: 10px;
+}
+.details {
+  background-color:#DFD9E7;
+  margin-bottom: 50px;
+  border: 1px solid #BDB1CE;
+  border-left: 0;
+  border-right: 0;
+  padding-bottom: 45px;
+}
+.details .title {
+  padding: 15px 30px;
+  color: #290462;
+  text-align: right;
+  font-size: 25px;
+  font-weight: bolder;
+}
+.details .box .row {
+  padding: 10px 30px;
+  border-bottom: 1px solid #BDB1CE;
+  ;
+}
+.details .box .row h4 {
+  color: gray;
+  font-size: 25px;
+  font-weight: bolder;
+}
+.details .box .row p {
+  color: #290462;
+  font-size: 25px;
+  font-weight: bolder;
+}
+.details .last {
+  background-color: #BDB1CE;
+  color: #290462;
+}
+.chooseWallet .icon {
+  margin: 10px 0;
+  text-align: left;
+}
+.chooseWallet .title {
+  text-align: right;
+  margin: 20px 0;
+  color: #290462;
+  font-weight: bolder;
+  font-size: 25px;
+}
+.chooseWallet .box {
+  background-color: #DFD9E7;
+  padding: 15px 10px;
+  border: none;
+  color: #290462;
+
+}
+.chooseWallet .box3 {
+  background-color: #BDB1CE;
+  border: 1px solid #290462;
+}
+.chooseWallet .done {
+  margin: 15px 0;
+}
+
+
+/* overFlow  */
+
+/* .overflow {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(128, 128, 128, 0.9);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+  opacity: 0;
+}
+.overflow .chooseWallet {
+  width: 80%;
+  height: 600px;
+  height: 00px;
+} */
+
+/*  */

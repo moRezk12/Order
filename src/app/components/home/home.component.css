@@ -1,0 +1,198 @@
+.nav {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.search {
+  width: 70%;
+  margin-left: 30px;
+  position: relative;
+}
+.search input {
+  width: 100%;
+  position: relative;
+  padding: 10px 8px;
+  border: 0.5px solid #290462 ;
+  outline: none;
+  border-radius: 8px;
+  text-indent: 30px;
+}
+.search input::placeholder {
+  font-size: 18px;
+}
+.search i {
+  position: absolute;
+  color: #3333bc;
+  font-size: 20px;
+  top: 48%;
+  right: 10px;
+  transform: translateY(-50%);
+}
+
+.icon {
+  width: 20%;
+}
+.icon i {
+  font-size: 25px;
+  padding: 0px 20px;
+}
+.circular-chart {
+  width: 35px;
+  height: 35px;
+  rotate: 90deg;
+}
+.circle-bg {
+  fill: none;
+  stroke: #004C97;
+  stroke-width: 3.8;
+}
+
+.circle {
+  fill: none;
+  stroke-width: 2.8;
+  stroke-linecap: round;
+}
+
+.orange {
+  stroke: #FF8C00; /* لون برتقالي مطابق للصورة */
+}
+
+.blue {
+  stroke: #004C97; /* لون أزرق مطابق للصورة */
+}
+.order {
+  margin-bottom: 20px;
+}
+.order .order-fast ,
+.order .wfr {
+  position: relative;
+  width: 49%;
+  border-top-right-radius: 8px;
+  border-bottom-left-radius: 4px;
+}
+.order .order-fast::after ,
+.order .wfr::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 4px;
+  background-color: #290462;
+  border-radius: 0px 0px 0px 4px;
+}
+
+.order .order-fast {
+  background: linear-gradient(264.27deg, #5408C8 -0.36%, #FF6600 87.22%);
+  padding: 8px 20px;
+
+}
+.order .wfr {
+  background: #290462;
+  padding: 8px 20px;
+}
+.order .wfr::after {
+  background: linear-gradient(264.27deg, #5408C8 -0.36%, #FF6600 87.22%);
+}
+.order .order-fast .info ,
+.order .wfr .info {
+  width: 90%;
+  margin-right: 15px;
+}
+
+.order-fast .info h5 ,
+.order .wfr .info h5 {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20.58px;
+}
+.order-fast .info p ,
+.order .wfr .info p {
+  color: #FFF0E6;
+  font-size: 10px;
+  font-weight: 300;
+}
+
+.slide img {
+  /* width: 320px; */
+  width: 100%;
+  height: 129.66px;
+  border-radius: 8px 0px 0px 0px;
+}
+.owl-carousel.owl-drag .owl-item {
+  width: 320px;
+}
+
+.section ,
+.day {
+  margin-top: 20px;
+}
+.section .row h3 ,
+.day .row h3 {
+  font-size: 25px;
+  font-weight: bolder;
+  line-height: 26.46px;
+  color: #290462;
+}
+.section .row .more ,
+.day .row .more  {
+  background: #F76F1A;
+  padding: 1px 10px;
+  border-radius: 4px;
+}
+.section .row a ,
+.day .row a {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 14.7px;
+  color: #fff;
+}
+
+
+.cafe {
+  margin-top: 20px;
+}
+.cafe .row {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.cafe h4 {
+  color: #290462;
+  font-size: 25px;
+  margin-bottom: 20px;
+  font-weight: 500;
+  line-height: 26.46px;
+}
+.cafe .box {
+  width: 18%;
+  text-align: center;
+}
+.cafe .box .image {
+  width: 100%;
+  margin-bottom: 8px;
+}
+.cafe .box .image img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+.cafe .box .time span {
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 14.7px;
+  color: #290462;
+}
+.cafe .box .time i {
+  font-size: 13px;
+  padding-left: 5px;
+  color: #F76F1A;
+}
+
+
+.day  .row {
+  margin-bottom: 20px;
+}
+
+.offer {
+  margin-bottom: 70px;
+}

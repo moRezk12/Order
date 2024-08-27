@@ -1,0 +1,160 @@
+.bg {
+  margin-top: 20px;
+  background-color: #FFD0B080 ;
+  border-radius: 40px 40px 0 0;
+}
+.confirme {
+  text-align: center;
+  position: relative;
+}
+.confirme .back {
+  width: 100%;
+  text-align: left;
+  padding-top: 10px;
+  font-size: 30px;
+  color: #290462;
+}
+.confirme .img {
+  padding-top: 50px;
+  width: 70%;
+  margin: auto;
+}
+.confirme h3 {
+  text-align: right;
+  color: #290462;
+  font-size: 35px;
+  font-weight: bolder;
+  margin-top: 15px;
+}
+.confirme p {
+  text-align: right;
+  color: gray;
+  font-size: 18px;
+  margin-top: 10px;
+}
+.confirme .money {
+  font-size: 14px;
+  color: #290462;
+}
+.confirme .money span {
+  color: #FF6600;
+  margin-right: 10px;
+}
+.confirme .imgRight {
+  position: absolute;
+  top: 40px;
+  right: 20px;
+  width: 70px;
+  height: 70px;
+}
+.confirme .imgLeft {
+  position: absolute;
+  top: 90px;
+  left: 20px;
+  width: 80px;
+  height: 50px;
+}
+.confirme .plus {
+  position: absolute;
+  bottom: 35%;
+  right: 30px;
+  border-radius: 50%;
+  background-color: #03D2DC;
+  color: #fff;
+}
+.confirme .plus a {
+  padding: 5px 8px;
+  font-size: 30px;
+  font-weight: bolder;
+}
+.confirme .icons {
+  position: absolute;
+  bottom: 33%;
+  left: 0px;
+  display: flex;
+  flex-direction: column;
+
+}
+.confirme .icons button {
+  font-size: 15px;
+  margin-bottom: 10px;
+  background-color: #FFD0B080;
+  color: #000;
+  padding: 2px;
+  border-radius: 50%;
+  text-align: center;
+}
+.confirme .icons button i {
+  padding: 5px;
+}
+.confirme .count {
+  position: absolute;
+  bottom: 10%;
+  left: 0px;
+  padding: 5px ;
+  background-color: #DFD9E7;
+  border-radius: 8px;
+}
+.confirme .count button ,
+.confirme .count span {
+  margin-right: 10px;
+}
+.confirme .count .plusNumber ,
+.confirme .count .minNumber {
+  font-size: 23px;
+  background-color: #fff;
+  padding: 2px 8px;
+  border: none;
+  border-radius: 6px;
+}
+.confirme .count .minNumber {
+  margin-right: 0px;
+  padding: 2px 10px;
+}
+.confirme .count span {
+  font-size: 20px;
+  font-weight: bold;
+}
+.confirme .addNewOrder {
+  position: absolute;
+  bottom: -14px;
+  left: 0px;
+  color: #000;
+  font-size: 20px;
+  font-weight: bold;
+}
+hr {
+  margin: 20px 0px;
+}
+.free ,
+.time {
+  display: flex;
+  justify-content: end;
+
+}
+.free i ,
+.time i {
+  margin-left: 20px;
+}
+.free p ,
+.time p {
+  font-size: 20px;
+}
+.free span ,
+.time span {
+  font-size: 25px;
+  font-weight: bolder;
+  color: #290462;
+  padding: 0px 5px;
+}
+.cash {
+  margin-top: 50px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.cash h2 {
+  font-size: 25px;
+  color: #290462;
+  font-weight: 400;
+}
+

@@ -1,0 +1,57 @@
+hr {
+  margin: 15px 0px ;
+}
+.name label {
+  display: flex;
+  justify-content: end;
+  font-size: 20px;
+  text-align: right;
+  color: #3F434A;
+  font-weight: 500;
+}
+.phone-input {
+  margin-bottom: 20px;
+}
+.phone-input input {
+  border-radius: 5px;
+  background-color: #DFD9E7;
+  width: 100%;
+  /* text-align: right; */
+}
+.address {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 10px ;
+}
+.address h4 {
+  margin-right: 10px;
+  font-size: 18px;
+  color: #3F434A;
+}
+.address .circle {
+  width: 40px;
+  height: 22px;
+  display: flex;
+  justify-content: end;
+  border-radius: 15px;
+  background-color: #BDB1CE;
+}
+.address .circle div {
+  width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    /* text-align: right; */
+    background-color: #EAE6EF;
+    margin: 2px;
+}
+.numberhome {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.numberhome .build {
+  width: 32%;
+}
+.done {
+  margin: 30px 0;
+}

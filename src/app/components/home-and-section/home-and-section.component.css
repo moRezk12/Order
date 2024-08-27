@@ -1,0 +1,91 @@
+.mar {
+  background-color: #290462;
+}
+.market {
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+  align-items: center;
+}
+.market .circle {
+  width: 22px;
+  height: 22px;
+  /* background-color: !important ; */
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.market .circle div {
+  width: 45%;
+  margin-bottom: 1px;
+  border-radius: 3px;
+  border: 1px solid #fff;
+}
+.market div a {
+  font-size: 16px;
+  padding: 20px 0px;
+  color: #fff;
+  display: block;
+  position: relative;
+}
+.market a::after {
+  content: "";
+  position: absolute;
+  bottom: 0 ;
+  left: 0;
+  right: 0;
+  width: 0;
+  height: 3px;
+  background-color: #03D2DC;
+  border-radius: 1px;
+  transition: all 0.5s;
+}
+.market a:hover::after {
+  width: 100%;
+}
+.market a::before {
+  content: "";
+  position: absolute;
+  bottom: 0 ;
+  left: 30%;
+  border: 8px solid transparent;
+  transition: all 0.5s;
+}
+.market a:hover::before {
+  border-bottom: 8px solid #03D2DC;
+}
+.market .circle .orange {
+  background-color: #FF6600;
+}
+.market .vector img {
+  width: 15px;
+}
+.fresh {
+  padding: 10px 10%;
+  text-align: right;
+  overflow-X: auto;
+  box-shadow: 0px 0px 20px gray;
+}
+.fresh .active {
+  background-color: #FF6600;
+  color: #fff;
+}
+.fresh a {
+  font-size: 16px;
+  color: #000;
+  background-color: #BDB1CE;
+  padding: 5px 15px;
+  border-radius: 15px;
+  margin-left: 10px;
+}
+.bread {
+  margin-top: 20px;
+}
+.bread h3 {
+  color: #290462;
+  text-align: right;
+  font-size: 25px;
+
+}
+

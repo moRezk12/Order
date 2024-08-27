@@ -1,0 +1,379 @@
+/* You can add global styles to this file, and also import other style files */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  min-height: 579px ;
+  position: relative;
+}
+a {
+  text-decoration: none;
+}
+.container {
+  width: 90%;
+  margin: auto;
+}
+li {
+  list-style: none;
+}
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+button {
+  cursor: pointer;
+}
+.section .row {
+  margin-top: 30px;
+  flex-wrap: wrap;
+}
+.row-box {
+  margin-bottom: 50px;
+}
+.section .row .box {
+  width: 31%;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.section .row .box .image {
+  width: 100%;
+  height: 70px;
+  border-radius: 13px;
+  background: #BDB1CE;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 20px;
+  padding: 45px;
+}
+.section .row .box .dis ,
+.section .row .box .discound{
+  position: relative;
+}
+.section .row .box .dis::after ,
+.section .row .box .discound::after {
+  content: "خصم %50";
+  position: absolute;
+  bottom: -10px;
+  width: 60px;
+  font-size: 14px;
+  padding: 5px;
+  border-radius: 8px;
+  background-color: #F76F1A;
+  color: #fff;
+}
+.section .row .box .discound::after {
+  content: "خصم %20";
+}
+.section .row .box .image img{
+  width: 57px;
+  height: 50px;
+}
+.section .row .box h4 {
+  font-size: 18px;
+  font-weight: bold;
+  color: #290462;
+}
+/*  تاكيد الاوردر  */
+.done {
+  background-color: #290462;
+  border-radius: 15px;
+  text-align: center;
+  /* padding: 10px 0px; */
+  margin-bottom: 50px;
+}
+.done button {
+  color: #FFD0B0;
+  font-size: 25px;
+  padding: 10px 40px;
+  font-weight: bold;
+  background: #290462;
+    border: none;
+    cursor: pointer;
+}
+/*  CodeNumber And PhoneNumber  */
+
+.icon {
+  text-align: right;
+  margin: 20px 0px;
+  padding: 10px 0px;
+}
+.icon i {
+  font-size: 25px;
+  font-weight: bold;
+}
+.info{
+  text-align: right;
+}
+.info p {
+  font-size: 18px;
+  color: #af9acf;
+  margin: 3px 0px;
+}
+.info h2 {
+  font-size: 30px;
+  font-weight: bolder;
+  color: #290462;
+}
+.phone-input {
+  display: flex;
+  align-items: center;
+  border: 2px solid #2F0A64;
+  border-radius: 5px;
+  margin: 20px 0;
+  margin-bottom: 50px;
+}
+
+.phone-input .flag {
+  display: flex;
+  align-items: center;
+  border-radius: 5px 0 0 5px;
+  padding: 10px;
+  background-color: #f9f9f9;
+  border-right: 2px solid #2F0A64;
+}
+
+.phone-input .flag img {
+  width: 30px;
+  margin-right: 10px;
+}
+.phone-input .flag span {
+  font-weight: bolder;
+  font-size: 16px;
+}
+.phone-input input {
+  border: none;
+  outline: none;
+  color: #000;
+  font-size: 16px;
+  border-radius: 0px 5px 5px 0;
+  font-weight: bolder;
+  padding: 10px;
+  flex: 1;
+  text-align: right;
+}
+/* homeAndSection and Favorite */
+.bread .row {
+  flex-wrap: wrap;
+  margin-bottom: 50px;
+}
+.bread .row .box {
+  width:  106px;
+  border: 1px solid #DFD9E7;
+  border-radius: 15px;
+  background-color: #DFD9E7;
+  margin-bottom: 20px;
+  /* box-shadow: 0px 0px 0px 10px #DFD9E7;` */
+}
+.bread .row  .box .info {
+  width: 100%;
+  position: relative;
+  text-align: center;
+  padding-top: 20px ;
+}
+.bread .row .info .imgTop {
+  position: absolute;
+  top: 10px ;
+  left: 5px;
+  width: 30px;
+  height: 20px;
+}
+.bread .row .info .number {
+  position: absolute;
+  top: 6px;
+  right: 5px;
+  background: linear-gradient(264.27deg, #5408C8 -0.36%, #FF6600 87.22%);
+  color: #fff;
+  font-size: 16px;
+  border-radius: 0px 10px 0 10px ;
+  padding: 3px 6px;
+}
+.bread .row .info .plus {
+  position: absolute;
+  bottom: 60px;
+  left: 10px;
+  border-radius: 50%;
+  background-color: #03D2DC;
+  color: #fff;
+}
+.bread .row .info .plus a {
+  padding: 5px 8px;
+  font-size: 30px;
+  font-weight: bolder;
+}
+.bread .row .info .imgBig {
+  padding-top: 20px;
+}
+.bread .box .info h3 {
+  font-size: 15px;
+  margin: 10px 0px ;
+  font-weight: bold;
+  padding-right: 10px;
+}
+.bread .box .info p {
+  text-align: right;
+  font-size: 14px;
+  padding-right: 10px;
+  margin-bottom: 10px;
+  color: gray;
+}
+.bread .box .price {
+  background: linear-gradient(264.27deg, #5408C8 -0.36%, #FF6600 87.22%);
+  color: #fff;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  padding-top: 10px;
+  position: relative;
+}
+.bread .box .price::after {
+  content: "";
+  position: absolute;
+  top: -2px;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 3px;
+  background: linear-gradient(264.27deg, #5408C8 -0.36%, #FF6600 87.22%);
+  rotate: 180deg;
+}
+.bread .box .price p {
+  margin: 0px 8px ;
+  font-size: 18px;
+}
+.bread .box .price .active {
+  color: #000;
+  font-size: 14px;
+}
+.bread .box .price .active::after {
+  content: "";
+  position: absolute;
+  top: 53%;
+  left: 4px;
+  width: 75%;
+  height: 1px;
+  background-color: #000;
+}
+.bread .price .dis  ,
+.bread .price .bos {
+  position: relative;
+}
+.bread .price .bos::after ,
+.bread .price .dis::after {
+  content: "جـــــ";
+  position: absolute;
+  top: -10px;
+  right: 0;
+  color: #FFF431;
+  font-size: 15px;
+}
+.bread .price .dis::after{
+  color : #BDB1CE ;
+  font-size: 13px;
+  top: -9px;
+}
+/*  talabat-back and favoriteProduct  */
+.talabat-bg {
+  padding: 5px 0;
+  background-color: #290462;
+}
+.talabatBack {
+  text-align: right;
+  margin: 35px 0;
+    margin-bottom: 50px;
+  color: #FF6600;
+}
+
+.talabatBack a {
+  display: block;
+  margin-bottom: 20px;
+  color: #FF6600;
+  font-size: 20px;
+}
+
+
+/* Footer */
+.footer {
+  background-color: #3333bc;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  width: 100%;
+  z-index: 999999999999999999999999;
+}
+.footer .row li {
+  margin: 15px 0px;
+}
+.footer .row li {
+  position: relative;
+  /* width: 15%; */
+  padding: 0px 20px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.footer .row li::after {
+  content: "";
+  position: absolute;
+  top: -17px;
+  left: 0;
+  width: 0;
+  height: 3px;
+  background-color: #F76F1A;
+  transition: all 0.5s;
+}
+.footer .row li:hover::after {
+  width: 100%;
+}
+.footer li i {
+  color: #fff;
+  font-size: 25px;
+}
+.footer .row a {
+  position: relative;
+  width: 15%;
+}
+.footer a::before {
+  /* content: "لديك عرض "; */
+  position: absolute;
+  width: 100%;
+  font-size: 12px;
+  padding: 2px;
+  text-align: center;
+  top: -14px;
+  left: 0px;
+  border-radius: 2px;
+  background-color: #F76F1A;
+  color: #fff;
+  z-index: 2;
+  transition: all 0.5s;
+}
+.footer a::after {
+  /* content: ""; */
+  position: absolute;
+  border: 10px solid #3333bc ;
+  border-top: 8px solid transparent;
+  left: 33%;
+  top: 3px;
+  background-color: #F76F1A;
+  z-index: -1;
+  transition: all 0.5s;
+
+}
+.footer a:hover::after  {
+  content: "";
+}
+.footer a:hover::before {
+  content: "لديك عرض ";
+
+}

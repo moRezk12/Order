@@ -1,0 +1,46 @@
+.splash {
+  position: relative;
+  height: 100vh;
+  background-color:#290462;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.splash .image img {
+  width: 120px;
+  height: 155px;
+}
+.splash .img {
+  position: absolute;
+
+}
+.splash .frame {
+  top: 17%;
+  right: 40px;
+  rotate: -8deg;
+}
+.splash .group {
+  top: 8%;
+  left: 50px;
+}
+.splash .group1 {
+  top: 31%;
+  left: 35px;
+}
+.splash .group2 {
+  top: 58%;
+  right: 52px;
+}
+.splash .group3 {
+  top: 62%;
+  left: 60px;
+}
+.splash .group4 {
+  bottom: 7px;
+  right: 50px;
+}
+.splash .group5 {
+  bottom: 20px;
+  left: 40px;
+}

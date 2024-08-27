@@ -1,0 +1,17 @@
+.phone-input input {
+  text-align: right;
+  border-radius: 5px;
+}
+.again {
+  text-align: right;
+  margin-top: 10px;
+}
+.again p {
+  font-size: 18px;
+  color: #af9acf;
+}
+.again a {
+  font-weight: bolder;
+  color: #290462;
+  text-decoration: underline;
+}

@@ -1,0 +1,58 @@
+.icon {
+  text-align: right;
+  margin: 20px 0px;
+  padding: 10px 0px;
+}
+.icon i {
+  font-size: 25px;
+  font-weight: bold;
+}
+.info{
+  text-align: right;
+}
+.info p {
+  font-size: 18px;
+  color: #af9acf;
+  margin: 20px 0px;
+}
+.info h2 {
+  font-size: 30px;
+  font-weight: bolder;
+  color: #290462;
+}
+.phone-input {
+  display: flex;
+  align-items: center;
+  border: 2px solid #2F0A64;
+  border-radius: 5px;
+  margin: 20px 0;
+  margin-bottom: 50px;
+}
+
+.phone-input .flag {
+  display: flex;
+  align-items: center;
+  border-radius: 5px 0 0 5px;
+  padding: 10px;
+  background-color: #f9f9f9;
+  border-right: 2px solid #2F0A64;
+}
+
+.phone-input .flag img {
+  width: 30px;
+  margin-right: 10px;
+}
+.phone-input .flag span {
+  font-weight: bolder;
+  font-size: 16px;
+}
+.phone-input input {
+  border: none;
+  outline: none;
+  color: #000;
+  font-size: 16px;
+  border-radius: 0px 5px 5px 0;
+  font-weight: bolder;
+  padding: 10px;
+  flex: 1;
+}

@@ -1,0 +1,47 @@
+.phone-input {
+  margin-bottom: 15px;
+}
+.phone-input input {
+  text-align: right;
+  border-radius: 5px;
+  background-color: #DFD9E7;
+}
+hr {
+  margin: 15px 0px;
+}
+.name label {
+  display: flex;
+  justify-content: end;
+  font-size: 20px;
+  text-align: right;
+}
+.pragraph {
+  text-align: center;
+  margin: 20px 0px;
+  margin-bottom: 30px;
+}
+.pragraph p {
+  font-size: 14px;
+  color: #af9acf;
+}
+.pragraph span {
+  color: #290462;
+  font-size: 18px;
+  font-weight: bolder;
+
+}
+.done {
+  margin-bottom: 20px;
+}
+.skip {
+  background-color: #EAE6EF;
+  width: 100%;
+  font-size: 20px;
+  font-weight: bolder;
+  color: #290462;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid #290462;
+  text-align: center;
+  margin-bottom: 80px;
+}
