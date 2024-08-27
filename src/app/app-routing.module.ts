@@ -20,7 +20,6 @@ import { SplashComponent } from './components/splash/splash.component';
 import { StartShoppingComponent } from './components/start-shopping/start-shopping.component';
 
 const routes: Routes = [
-  {path : "" , redirectTo : "home" , pathMatch : "full"},
   {path : "home" , component : HomeComponent},
   {path : "section", component : SectionMoreComponent},
   {path : "homeAndSection", component : HomeAndSectionComponent},
@@ -39,7 +38,7 @@ const routes: Routes = [
   {path : "location", component : LocationComponent },
   {path : "splash", component : SplashComponent },
   {path : "startShopping", component : StartShoppingComponent },
-
+  
 ];
 
 @NgModule({
